@@ -1,0 +1,17 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+body{
+    background-image: url(images\background_image.jpg);
+}
+#container{
+    width: 1240px;
+    height: 1036px;
+    background-color: ;
+
+
+
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+    <style>
+        #userInfo{
+            background-color: rgb(238, 105, 10);
+        }
+        #cinsiyet{
+            background-color: cornflowerblue;
+        }
+        #favoriler{
+            /* border-width: 5px;
+            border-style: solid;
+            border-color: darkgreen; */
+
+            border:5px groove darkcyan;
+            border-top-right-radius: 20px;
+
+        }
+        input{
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <form action="result.html">
+        <h1>Sizi Tanıyalım</h1>
+        <div id="userInfo">
+            <label for="AD">AD:</label>
+            <input type="text" name="username" id="AD" placeholder="Adınızı Giriniz...">
+            <br><br>
+            <label for="SOYAD">SOYAD:</label>
+            <input type="text" name="surname" id="soyad" placeholder="Soyadınızı Giriniz...">
+            <br><br>
+            <label for="Şifre">Şifre:</label>
+            <input type="password" name="password" id="Şifre" placeholder="Şifre Giriniz...">
+        </div>
+        <div <div id="cinsiyet">
+            <h3>Cinsiyet</h3>
+            <input type="radio" name="cinsiyet" id="gender1" value="Erkek">
+            <label for="gender1">Erkek</label>
+
+            <input type="radio" name="cinsiyet" id="gender2" value="Bayan">
+            <label for="gender2">Bayan</label>
+        </div>
+        <hr>
+        <div id="favoriler">
+            <h4>En Sevdiğiniz Hayvanlar:</h4>
+            <input type="checkbox" name="animal" id="panda" value="panda">
+            <label for="panda">panda</label>
+
+            <input type="checkbox" name="animal" id="kedi" value="kedi">
+            <label for="kedi">kedi</label>
+
+            <input type="checkbox" name="animal" id="kuzu" value="kedi">
+            <label for="kuzu">kuzu</label>
+        </div>
+        <div>
+            <br>
+            <hr>
+            <div>
+                <label for="yas">YAŞ</label>
+                <input type="number" name="age" id="yas" min=7 max=70>
+            </div>
+            <br>
+            <hr>
+            <div>
+                <label for="ara">Kitap Ara</label>
+                <input type="search" name="search" id="ara" placeholder="Aranacak Kelime Giriniz...">
+            </div>
+            <br>
+            <hr>
+
+            <div>
+                <label for="Renk">Sevdiğiniz Renk</label>
+                <input type="color" name="color" id="Renk">
+            </div>
+            <br>
+            <br>
+
+            <label for="e-posta">Email</label>
+            <input type="email" name="email" id="e-posta" placeholder="example@example.com">
+            <div>
+                <br>
+                <label for="dosya">Profil Fotoğrafı</label>
+                <input type="file" name="file" id="dosya" multiple>
+            </div>
+            <br>
+            <hr>
+            <div>
+                <label for="tel">Telefon No:</label>
+                <input type="tel" name="phone" id="tel"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                placeholder="+90-xxx-xxx-xx-xx" maxlength="13">
+            </div>
+            <br>
+            <div>
+                <label for="">Hangi Tatlıyı Seversiniz?:</label>
+                <select name="" id="">
+                    <option value="sütlaç">Sütlaç</option>
+                    <option value="baklava">baklava</option>
+                    <option value="profiterol">profiterol</option>
+                    <option value="kazandibi">kazandibi</option>
+                    <option value="kadayıf">kadayıf</option>
+                </select>
+                <div>
+                    <label for="dogum">Doğum Tarihini Giriniz:</label>
+                    <input type="date" name="date" id="dogum" value="2018-07-22">
+                </div>
+                <div>
+                    <input type="reset">
+                    <input type="submit">
+            
+
+
+                </div>
+
+
+            </div>
+
+            
+        </div>
+
+
+
+    </form>
+
+
+
+</body>
+</html>

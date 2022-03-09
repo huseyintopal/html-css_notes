@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Audiowide", sans-serif;
+}
+.header {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    background: black;
+    border-bottom: 5px solid red;
+}
+span {
+    color: red;
+}
+nav {
+    color: white;
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none ;
+    color: white;
+}
+nav ul li a:hover {
+    color: red;
+}
+.main {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.main h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px ;
+    margin-bottom: 20px ;
+}
+.main p {
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+body #body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/banner.jpg);
+    background-size: cover;
+}
+#about {
+    font-size: larger;
+    margin: 5px 5px;
+    color: red;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+#contact {
+    font-size: larger;
+    margin: 5px 5px;
+    color: red;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
