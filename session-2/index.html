@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<body>
+    <h1>Welcome to Clarusway</h1>
+
+    <form action="result.html" method="get">
+
+        <div>
+            <label for="name">Adınızı Giriniz:</label>
+            <input type="text" name="isim" id="name" placeholder="Isminizi giriniz..." >
+            <br>
+            <label for="lname">Soyadınızı Giriniz:</label>
+            <input type="text" name="Soyad" id="lname" placeholder="Soyadınızı giriniz..." >
+        </div>
+        
+        <div>
+            <label for="sifre">Parolanızı giriniz:</label>
+            <input type="password" name="Girilen Parola" id="sifre">
+        </div>
+
+        <div>
+            <p>Cinsiyetinizi Giriniz:</p>
+            <label for="gender1">Erkek</label>
+            <input type="radio" name="cinsiyet" id="gender1" value="Erkek" >
+            <label for="gender2">Kadın</label>
+            <input type="radio" name="cinsiyet" id="gender2" value="Kadın">
+        </div>
+
+        <div>
+            <p>Favori hayvanlarınızı işaretleyin</p>
+            <input type="checkbox" name="hayvan_1" id="panda" value="Panda">
+            <label for="panda">Panda</label>
+            <input type="checkbox" name="hayvan_2" id="fish" value="Balık">
+            <label for="fish">Balık</label>
+            <input type="checkbox" name="hayvan_3" id="horse" value="Unicorn">
+            <label for="horse">Unicorn</label>
+        </div>
+
+        <div>
+            <label for="age">Yaş:</label>
+            <input type="number" name="Girilen yaş" id="age" min="18" max="999">
+        </div>
+
+        <div>
+            <label for="search">Ara:</label>
+            <input type="search" name="Aranan_Kelime" id="search" maxlength="5" minlength="3">
+        </div>
+
+        <div>
+            <label for="renk">Renk Seçin:</label>
+            <input type="color" name="seçilen_renk" id="renk">
+        </div>
+
+
+
+
+        <br><br><br><br><br>
+        <input type="submit" value="Gönder">
+        <br><br><br>
+        <input type="reset" value="Sıfırla">
+    </form>
+    
+</body>
+</html>
